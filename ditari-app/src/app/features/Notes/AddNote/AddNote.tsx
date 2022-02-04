@@ -26,7 +26,7 @@ export default function AddNote() {
   }
 
   const validationSchema = Yup.object({
-    title: Yup.string().required('Sheno titullin'),
+    title: Yup.string().required('Sheno titulliin'),
     descriptionN: Yup.string().required('Sheno pershkrimin')
   })
 
