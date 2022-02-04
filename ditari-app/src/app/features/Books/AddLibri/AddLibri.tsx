@@ -31,7 +31,7 @@ export default function AddLibri() {
     autori: Yup.string().required('Sheno autorin'),
     title: Yup.string().required('Sheno titullin'),
     category: Yup.string().required('Sheno klasen'),
-    descriptionB: Yup.string().required('Sheno pershkriminn')
+    descriptionB: Yup.string().required('Sheno pershkrimin')
   })
 
   const [book, setBook] = useState(initialState);
