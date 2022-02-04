@@ -6,7 +6,7 @@ import { Button, Card, Container, Menu, Icon, Segment, Statistic } from 'semanti
 import agent from '../../app/API/agent';
 import { Nxenesi } from '../../app/models/nxenesi';
 import { useStore } from '../../app/stores/store';
-import Librat from '../Book/dashboard/Librat';
+import Librat from '../Books/dashboard/Librat';
 
 export default observer(function About(){
 
